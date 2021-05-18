@@ -31,6 +31,7 @@ fun fib(n:Long, n1:Long, n2:Long):Long {
 fun productFib2(prod:Long):LongArray {
     var (a, b, check) = longArrayOf(0, 1, 0)
     while (check < prod) {
+        // esegue l'operazione nelle oarentesi e ritorna il vecchio valore di b
         a = b.also { b += a }
         check = a * b
     }
