@@ -1,0 +1,7 @@
+# Tutti i properties vengono trattati come UTF-8 per evitare problemi con le lettere accentate e gli altri strumenti di sviluppo
+*.properties text
+*.template text
+# Tratta i file "eseguibili" in Unix utilizzando il delimitatore appropriato
+*.sh text eol=lf
+gradlew text eol=lf
+*.bat text eol=crlf
